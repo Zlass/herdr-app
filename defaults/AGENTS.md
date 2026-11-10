@@ -815,8 +815,15 @@ has 120 programs (agents, editors, runtimes, tools, databases, infra);
   `~/.herdr/worktrees/<repo>/<branch>` on the space's machine, a constant
   at its top; the
   `spaces` sidebar nests worktree spaces under their repo's and shows each
-  space's repo, branch, ahead/behind and uncommitted changes). Shipped mods
-  are Herdr's; duplicate with `mod.clone` before editing.
+  space's repo, branch, ahead/behind and uncommitted changes), and `task`
+  (`mod.open:task`, Cmd-K on macOS: asks what an agent should do, has
+  `hi -p --model haiku-5-5` name a branch for it, makes that worktree of the
+  space's repo like `worktree` does and opens a space there running
+  `hi --model opus-5-5 --thinking medium` with the task as its first message;
+  props `{space?}`, default the shown space; both commands are constants at
+  its top) with `task-space` (`mod.open:task-space`, Cmd-Shift-K: choose the
+  space first, then `task`). Shipped mods are Herdr's; duplicate with
+  `mod.clone` before editing.
 
 ### Check before you finish
 

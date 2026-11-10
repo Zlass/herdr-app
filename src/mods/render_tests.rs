@@ -658,6 +658,9 @@ fn local_state_and_overlay_initial_descriptions(cx: &mut TestAppContext) {
         ("mods/peek", json!({"terminal":"missing"})),
         ("mods/worktree", json!({"space":"s1","action":"new"})),
         ("mods/worktree", json!({"space":"s1","action":"remove"})),
+        ("mods/task", json!({"space":"s1"})),
+        ("mods/task", json!({"space":"missing"})),
+        ("mods/task-space", json!({})),
     ];
     let entries = staged.entries();
     for (entry, patch) in scenarios {

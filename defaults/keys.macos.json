@@ -17,6 +17,8 @@
     "cmd-n": "space.new",
     "cmd-p": "mod.open:picker",
     "cmd-shift-p": "app.palette",
+    "cmd-k": "mod.open:task",
+    "cmd-shift-k": "mod.open:task-space",
     "cmd-,": "app.settings",
     "cmd-d": "pane.split:right",
     "cmd-shift-d": "pane.split:down",

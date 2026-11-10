@@ -1,0 +1,1 @@
+{ "place": "none", "title": "New task in a space", "overlay": { "kind": "popup", "at": "top", "offset": 40, "width": 520 } }
